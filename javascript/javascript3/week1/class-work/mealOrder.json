@@ -1,0 +1,33 @@
+{
+  "order1": {
+    "name": "order for table 1",
+    "Order Name": "Chese pizza",
+    "OrderId": 1,
+    "price": 50,
+    "List of drinks": ["Cola", "pepsi"],
+    "extra": [
+      {
+        "name": "lettice",
+        "price": 10,
+        "ready": true
+      },
+      {
+        "name": "tometo",
+        "price": 5,
+        "ready": false
+      }
+    ]
+  },
+  "order2": {
+    "name": "order for table 2",
+    "Order": "kabab pizza",
+    "OrderId": 2,
+    "price": 70,
+    "List of drinks": ["Cola", "pepsi", "Sprit"],
+    "extra": {
+      "name": "tometo",
+      "price": 5,
+      "ready": false
+    }
+  }
+}
