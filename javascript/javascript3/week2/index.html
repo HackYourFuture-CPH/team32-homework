@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Hack Your Future Quiz App</h1>
+      <div id="buttonDiv">
+        <button class="addQuestionBtn" id="addQuestionBtn">
+          Add a question
+        </button>
+      
+          <a href="quiz.html?sequence=alphabetic">
+            <button class="addQuestionBtn">Albhabetic quiz</button>
+          </a>
+          <a href="quiz.html?sequence=random">
+            <button class="addQuestionBtn">Random quiz</button>
+          </a>
+        
+      </div>
+
+      <form id="addQuestion" class="formHide">
+        <label
+          >Add Question:
+          <input
+          class="addQuestionInput"
+            type="text"
+            name="question"
+            placeholder="Add a question here.."
+          />
+        </label>
+        <div class="optionsInputDiv">
+        <div class="inputContainer">
+          <input type="radio" name="correctAns" value="a" required />
+          <input class="optionInput"  type="text" name="textA" />
+        </div>
+        <div class="inputContainer">
+          <input type="radio" name="correctAns" value="b" required />
+          <input  class="optionInput"  type="text" name="textB" />
+        </div>
+        <div class="inputContainer">
+          <input type="radio" name="correctAns" value="c" required />
+          <input  class="optionInput"  type="text" name="textC" />
+        </div>
+        <div class="inputContainer">
+          <input type="radio" name="correctAns" value="d" required />
+          <input  class="optionInput"  type="text" name="textD" />
+        </div>
+      </div>
+        <button class="addQuestionSubmitBtn" type="submit">Submit</button>
+      </form>
+      <div class="search-input-div">
+        
+        <form id="searchForm">
+          <label>Search questions :</label>
+          <div class="searchInput-button">
+            <input
+              type="text"
+              placeholder="search questions here.."
+              id="search"
+            />
+            <button class="searchBtn">Search</button>
+          </div>
+          <span id="searchErrorMsg" class="hide"></span>
+        </form>
+      </div>
+      <div id="allQuestions">
+        <h3>All questions</h3>
+        <ol id="ol"></ol>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

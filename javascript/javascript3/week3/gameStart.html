@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="player-input">
+      <div class="app">
+        <h1>Choose Players</h1>
+        <a class="goToStartPage" href="index.html"><div>Back</div></a>
+        <div class="search-input-div">
+          <label
+            >Player :
+            <input type="text" placeholder="Enter player name" name="player" required />
+          </label>
+        </div>
+        <div class="sequence-random-btn-div">
+          <button type="submit" id="gameStartPlayer" class="player-btn">
+            Start
+          </button>
+          <div class="input-random-alphabetic">
+            Game style:
+            <input type="radio" name="gameSequence" value="alphabetic" />
+            Alphabetic
+            <input type="radio" name="gameSequence" value="random" /> Random
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="gamestart.js"></script>
+  </body>
+</html>
