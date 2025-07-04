@@ -1,0 +1,13 @@
+.button{
+    height: 3em;
+    width: 7em;
+    padding: 10px;
+    font-weight:500;
+    background-color: grey;
+    color: white;
+    margin: 1em;
+}
+
+.span{
+    font-size: 2em;
+}
