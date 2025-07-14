@@ -1,6 +1,8 @@
 Veggies name:
 1. Carrot
 2. Cucumber
-3. Bell paper
+3. Ladies finger
 4. Cauliflower
 5. Egg plant
+6. Red Spinach
+7. Parsly
