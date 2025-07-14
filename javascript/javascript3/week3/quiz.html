@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Quiz</h1>
+      <a class="goToStartPage" href="gameStart.html"><div>Back</div></a>
+      <div class="player-progress-div">
+        <h2 id="player"></h2>
+        <div id="progress-question">Question : 1 out of 5</div>
+      </div>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons"></div>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+    <script type="module" src="quiz.js"></script>
+  </body>
+</html>
