@@ -1,0 +1,9 @@
+.danger {
+  background-color: red !important;
+  color: white !important;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
